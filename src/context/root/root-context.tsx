@@ -9,8 +9,8 @@ export const RootContext = React.createContext(
 
 export const rootInitialState: RootStateModel = {
   user: {
-    name: 'Chris',
-    lastname: 'Santiz',
+    name: 'Foo',
+    lastname: 'Bar',
     age: 23,
   },
 };

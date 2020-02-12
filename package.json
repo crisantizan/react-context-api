@@ -1,7 +1,16 @@
 {
-  "name": "redux-example",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-context-api",
+  "version": "0.0.1",
+  "private": false,
+  "description": "A simple implementation of React context api similarly to how Redux it does",
+  "author": {
+    "name": "Chris Santiz",
+    "email": "santz.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisantiz/react-context-api"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -10,13 +19,8 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.4.1",
     "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
     "typescript": "~3.7.2"
   },

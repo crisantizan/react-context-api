@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react';
-import './App.css';
 import { RootContext } from './context/root/root-context';
 import { changeUsername } from './context/root/root-actions';
 
@@ -17,7 +16,7 @@ const App = () => {
 
   return (
     <div
-      className="App"
+      className="app"
       style={{
         display: 'flex',
         height: '100vh',
@@ -38,9 +37,7 @@ const App = () => {
         USER DATA ONLY: {JSON.stringify(user)}
       </pre>
 
-      <pre style={{ fontSize: '30px' }}>
-        FULL DATA: {JSON.stringify(state)}
-      </pre>
+      <pre style={{ fontSize: '30px' }}>FULL DATA: {JSON.stringify(state)}</pre>
     </div>
   );
 };
