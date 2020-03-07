@@ -4,8 +4,8 @@
   "private": false,
   "description": "A simple implementation of React context api similarly to how Redux it does",
   "author": {
-    "name": "Chris Santiz",
-    "email": "santz.dev@gmail.com"
+    "name": "Cristian Santiz",
+    "email": "crisantizan@gmail.com"
   },
   "repository": {
     "type": "git",
