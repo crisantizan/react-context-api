@@ -19,12 +19,12 @@ export function RootProvider({ children }: any) {
   const [state, dispatch] = useReducer(rootReducer, rootInitialState);
 
   /** proxy to select state */
-  function getState(cb: any) {
+  function selector(cb: any) {
     return cb(state);
   }
 
   return (
-    <RootContext.Provider value={{ getState, dispatch }}>
+    <RootContext.Provider value={{ selector, dispatch }}>
       {children}
     </RootContext.Provider>
   );

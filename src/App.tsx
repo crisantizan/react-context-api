@@ -3,9 +3,8 @@ import { RootContext } from './context/root/root-context';
 import { changeUsername } from './context/root/root-actions';
 
 const App = () => {
-  const { getState, dispatch } = useContext(RootContext);
-  const user = getState(state => state.user);
-  const state = getState(state => state);
+  const { selector, dispatch } = useContext(RootContext);
+  const [user, state] = selector(state => [state.user, state]);
 
   const [name, setName] = useState('');
 
